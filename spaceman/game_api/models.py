@@ -55,7 +55,7 @@ class Game(models.Model):
             self.__updateGuessedWordState()
         else:
             self.__incrementGuessesTaken()
-
+            
         self.__updateIsGameOver()
 
 
